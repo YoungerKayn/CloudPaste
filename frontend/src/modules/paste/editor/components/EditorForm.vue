@@ -244,7 +244,7 @@ const resetForm = () => {
   formData.password = "";
   formData.expiry_time = "0";
   formData.max_views = 0;
-  formData.is_public = true;
+  formData.is_public = false;
   slugError.value = "";
 };
 
