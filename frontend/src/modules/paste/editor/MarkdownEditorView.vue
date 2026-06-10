@@ -156,7 +156,7 @@ const rawShareLink = computed(() => {
 });
 
 const formatCountdownText = (seconds) => t("markdown.linkExpireIn", { seconds });
-const isPlainTextMode = ref(false);
+const isPlainTextMode = ref(true);
 const editorContent = ref("");
 const currentEditor = ref(null);
 
