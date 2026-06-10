@@ -156,7 +156,7 @@ const formData = reactive({
   password: "",
   expiry_time: "0",
   max_views: 0,
-  is_public: true,
+  is_public: false,
 });
 
 // 验证错误
